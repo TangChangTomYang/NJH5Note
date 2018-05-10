@@ -9,7 +9,6 @@
     ```
     <form action="https://baidu.com">
         <label for="usr">账号:</label> <input type="text"      id="usr"><br>
-        <label for="pwd">密码:</label> <input type="password"  ID="pwd"><br>
-
-</form>
+        <label for="pwd">密码:</label> <input type="password"  id="pwd"><br>
+    </form>
     ```
