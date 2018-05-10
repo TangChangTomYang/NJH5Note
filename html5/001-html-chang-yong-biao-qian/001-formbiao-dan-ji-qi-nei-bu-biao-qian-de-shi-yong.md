@@ -92,8 +92,21 @@
                - 必须要在提交的form表单的对应的input标签中添加name属性,指定对应input标签的字段名称 
                ![](/assets/屏幕快照 2018-05-10 下午5.30.08.png)
                ![](/assets/Snip20180510_3.png)      
-   - 隐藏域
-     - 作用: 配合提交按钮将一些数据默默地悄悄咪咪的提交到服务器.
+              
+        - 隐藏域
+         - 作用: 配合提交按钮将一些数据默默地悄悄咪咪的提交到服务器,真正的明白什么是隐藏域,要等学完Ajax才会明白.
+         - 注意: 隐藏域必须配合提交按钮才能工作,隐藏域是不显示的一个input标签
+         ```
+         <form action="https://baidu.com">
+        账号:
+        <input type="text" name="usrName"><br>
+        密码:
+        <input type="password" name="pwd"><br>
+        <input type="submit">
+        <input type="hidden" name="address" value="成都">
+</form>
+         ```
+         ![](/assets/Snip20180510_6.png)
                
 
 
