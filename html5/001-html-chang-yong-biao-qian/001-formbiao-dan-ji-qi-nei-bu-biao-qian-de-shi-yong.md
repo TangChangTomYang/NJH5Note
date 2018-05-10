@@ -54,16 +54,16 @@
     <input type="checkbox"><br>
     ```
     - input 标签 按钮
-    - 普通按钮
+        - 普通按钮
     ```
     <input type="button" value="我是按钮">
     ```
-    - 图片按钮
+        - 图片按钮
     ```
     <input type="image" src="imgs.jpg" alt="图片不存在">
     ```
-    - 重值按钮
-        - 作用: 重置按钮是用来清空(恢复\复原)和重置按钮在同一个form里面的其他input标签的值得
+        - 重值按钮
+            - 作用: 重置按钮是用来清空(恢复\复原)和重置按钮在同一个form里面的其他input标签的值得
     ```
     <form >
         账号:
@@ -74,7 +74,25 @@
     <input type="reset">
     </form>
     ```
-        - 注意:重置按钮必须要写在form表单内才有效果
+            - 注意:重置按钮必须要写在form表单内才有效果,重置按钮有默认的名字"重置",想修改为其他名字,使用value属性修改
     ![](/assets/屏幕快照 2018-05-10 下午5.16.33.png)
+        - 提交按钮
+            - 作用,将表单中的数据内容提交到具体的服务器
+        ```
+        <form action="https://baidu.com"> 
+            账号:
+            <input type="text" name="usrName"><br> 
+            密码:
+            <input type="password" name="pwd"><br>
+            <input type="submit">
+        </form>
+        ```
+            - 注意点:
+               - 必须要在提交按钮的form表单里面添加 action属性,指明提交的服务器地址
+               - 必须要在提交的form表单的对应的input标签中添加name属性,指定对应input标签的字段名称 
+               ![](/assets/屏幕快照 2018-05-10 下午5.30.08.png)
+               ![](/assets/Snip20180510_2.png)
+
+
 
 
