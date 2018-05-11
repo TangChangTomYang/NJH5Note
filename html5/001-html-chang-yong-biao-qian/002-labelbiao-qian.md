@@ -28,7 +28,7 @@
     ```
     - 方式2的缺点,只能绑定label包裹的部分,要绑定其他地方的标签就不可以了,方式1通过 for= id可以绑定任意的标签,是官方推荐的方法.
 
-##datalist 标签
+##datalist 标签 (仅作为了解)
 
 ####给输入框input标签绑定datalist标签
 
@@ -56,6 +56,8 @@
     
     </form>
 ```
+- 注意:
+    - 所有主流浏览器都支持 <datalist> 标签，除了 Internet Explorer 和 Safari。 
     
 
 
