@@ -307,34 +307,49 @@
 代码:
 
 ```
-<body>
-    <form action="https://baidu.com" >
+<!--表单标签完整练习-->
+        <form action="https://baidu.com">
 
-        <p>账号: <input type="text" name="account"></p>
+            <!--添加表单标签的边框-->
+            <fieldset>
+                <!--设置表单标签的标题-->
+                <legend>注册页面</legend>
 
-        <p>密码: <input type="password" name="pwd"></p>
+                <!--添加表单具体内容-->
 
-        <p>性别:  <input type="radio" checked="checked" name="sex" value="male">男
-                 <input type="radio" name="sex" value="female">女
-                 <input type="radio" name="sex" value="secret">保密 </p>
 
-        <p>爱好: <input type="checkbox" checked="checked" name="love" value="basketball" >篮球
-                <input type="checkbox" name="love" value="football">足球
-                <input type="checkbox"  name="love" value="crazy">足浴 </p>
+                <p>账号: <input type="text" name="account"></p>
+                <p>密码: <input type="password" name="pwd"></p>
 
-        <p>个人简介: <textarea  cols="30" rows="5"></textarea name="introduce"></p>
 
-        <p>生日: <input type="date" name="birthday"> </p>
+                <!--单选框-->
+                <p>性别: <input type="radio" name="sex" value="male" checked="checked">男
+                        <input type="radio" name="sex" value="female" >女
+                        <input type="radio" name="sex" value="scret" >保密
 
-        <p>邮箱: <input type="email" name="email"> </p>
+                </p>
 
-        <p>手机: <input type="number" name="phoneNum"></p>
+                <!--复选框-->
+                <p>性别: <input type="checkbox" name="love" value="basketball" checked="checked">篮球
+                    <input type="checkbox" name="love" value="football" >足球
+                    <input type="checkbox" name="love" value="read" >阅读
 
-        <p><input type="submit" value="注册"> <input type="reset" value="清空"></p>
+                </p>
 
-    </form>
+                <p>个人简介: <textarea name="des"cols="30" rows="10"></textarea></p>
 
-    </body>
+                <p>生日: <input type="date" name="birthday"> </p>
+
+                <p>邮箱: <input type="email " name="email"> </p>
+
+                <p>手机: <input type="number" name="phoneNum"></p>
+
+
+                <input type="submit" value="注册"> &emsp; &emsp; &emsp; <input type="reset" value="清空">
+
+            </fieldset>
+
+        </form>
 ```
 
 ![](/assets/Snip20180511_6.png)
