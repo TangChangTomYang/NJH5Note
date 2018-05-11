@@ -307,8 +307,7 @@
 代码:
 
 ```
-  <body>
-
+<body>
     <form action="https://baidu.com" >
 
         <p>账号: <input type="text" name="account"></p>
@@ -337,6 +336,10 @@
 
     </body>
 ```
+
+![](/assets/Snip20180511_6.png)
+
+
 
     
     
