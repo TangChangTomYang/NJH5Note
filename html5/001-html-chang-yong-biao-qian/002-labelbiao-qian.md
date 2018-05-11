@@ -28,11 +28,35 @@
     ```
     - 方式2的缺点,只能绑定label包裹的部分,要绑定其他地方的标签就不可以了,方式1通过 for= id可以绑定任意的标签,是官方推荐的方法.
 
+##datalist 标签
 
 ####给输入框input标签绑定datalist标签
+
 - datalits标签的作用?
     - 给输入框绑定带选项,如下图:
     ![](/assets/Snip20180511_4.png)
+- 使用步骤:
+    - 创建一个input标签
+    - 创建一个datalist标签
+    - 给datalist标签增加一个id属性
+    - 给input标签添加一个list属性,list属性的值就是datalist的id的值
+    ```
+    <form> 
+        <label>
+            选择汽车的类型: <input type="text"     list="cars"  >
+        </label><br>
+
+        <datalist id="cars">
+            <option>奔驰</option>
+            <option>宝马</option>
+            <option>奥迪</option>
+            <option>马自达</option>
+            <option>现代</option>
+    </datalist>
+    
+    </form>
+```
+    
 
 
 
