@@ -61,6 +61,8 @@
     
 ##input 标签 HTML5新增标签 (仅作了解)
 
+- input标签 邮箱类型
+
 ```
 <form>
 
@@ -70,7 +72,11 @@
     <input type="submit"><br>
 
 </form>
-<br>
+```
+
+- input标签 域名类
+
+```
 <form>
 
     <!--域名类型输入标签
@@ -78,8 +84,11 @@
     网址:<input type="url">
     <input type="submit"><br>
 </form>
+```
 
-<br>
+- input标签 数字类型
+
+```
 <form>
 
     <!--数字类型输入标签
@@ -87,15 +96,19 @@
     电话:<input type="number">
     <input type="submit"><br>
 </form>
+```
+- input标签 颜色类型
 
-<br>
+```
 <form>
 
     颜色:<input type="color">
     <input type="submit"><br>
 </form>
+```
+- input标签 日期类型
 
-<br>
+```
 <form>
 
     日期:<input type="date">
