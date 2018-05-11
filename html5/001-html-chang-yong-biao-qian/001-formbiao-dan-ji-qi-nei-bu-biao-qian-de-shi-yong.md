@@ -303,6 +303,44 @@
     
     
     
+##表单标签的综合练习
+代码:
+
+```
+  <body>
+
+    <form action="https://baidu.com" >
+
+        <p>账号: <input type="text" name="account"></p>
+
+        <p>密码: <input type="password" name="pwd"></p>
+
+        <p>性别:  <input type="radio" checked="checked" name="sex" value="male">男
+                 <input type="radio" name="sex" value="female">女
+                 <input type="radio" name="sex" value="secret">保密 </p>
+
+        <p>爱好: <input type="checkbox" checked="checked" name="love" value="basketball" >篮球
+                <input type="checkbox" name="love" value="football">足球
+                <input type="checkbox"  name="love" value="crazy">足浴 </p>
+
+        <p>个人简介: <textarea  cols="30" rows="5"></textarea name="introduce"></p>
+
+        <p>生日: <input type="date" name="birthday"> </p>
+
+        <p>邮箱: <input type="email" name="email"> </p>
+
+        <p>手机: <input type="number" name="phoneNum"></p>
+
+        <p><input type="submit" value="注册"> <input type="reset" value="清空"></p>
+
+    </form>
+
+    </body>
+```
+
+    
+    
+    
     
 
 
