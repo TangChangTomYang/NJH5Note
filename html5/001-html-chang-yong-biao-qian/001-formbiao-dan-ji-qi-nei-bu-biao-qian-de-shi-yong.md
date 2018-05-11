@@ -251,6 +251,7 @@
     </select>
     ```
 - **格式2分组模式**
+
 ```
 <form >
 
@@ -277,31 +278,36 @@
     - 下拉列表不能设置输入内容,但是可以直接在列表中选择内容
     - 可以给选择标签设置默认值,给option标签添加selected 属性
     - 可以通过optgroup标签包裹 option标签来给下拉数据分组,optgroup中增加label属性来添加分组名称
-    ![](/assets/屏幕快照 2018-05-11 上午11.37.08.png)
-    ![](/assets/屏幕快照 2018-05-11 上午11.47.50.png)
+    
+    ![](/assets/屏幕快照 2018-05-11 上午11.37.08.png)![](/assets/屏幕快照 2018-05-11 上午11.47.50.png)
     
 ##textarea 标签
 
 - **作用:** 定义一个多行的输入框
-
 - **格式:**
 
-
-    ```
-    <form action="http://baidu.com">
-
-        <textarea name="name"   cols="30" rows="10">
-                默认文字
-        </textarea> 
-        <input type="submit">
-
-    </form>
-    ```
+```
+<form action="http://baidu.com">
+    <textarea name="name" cols="30" rows="10">
+        默认文字
+    </textarea>
+    <input type="submit">
+</form>
+```
     
 - **注意点:**
     - 默认情况下输入框可以无限换行.
     - 默认情况下输入框有自己的宽度和高度
     - 可以通过clos和rows来指定输入框的宽度和高度,但是虽然指定了列数和行数但是还是可以无限往下书写.
+    - 默认情况下,是可以手动设置输入框的大小的
+    
+    
+    
+    
+
+
+
+
 
 
 
