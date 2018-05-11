@@ -59,7 +59,50 @@
 - 注意:
     - 所有主流浏览器都支持 <datalist> 标签，除了 Internet Explorer 和 Safari。 
     
+##input 标签 HTML5新增标签 (仅作了解)
 
+```
+<form>
+
+    <!--email类型输入标签
+    可以自动校验输入的内容是否符合邮箱的格式-->
+    邮箱:<input type="email">
+    <input type="submit"><br>
+
+</form>
+<br>
+<form>
+
+    <!--域名类型输入标签
+   可以自动校验输入的内容是否符合URL的格式-->
+    网址:<input type="url">
+    <input type="submit"><br>
+</form>
+
+<br>
+<form>
+
+    <!--数字类型输入标签
+   可以自动校验输入的内容是否是数字-->
+    电话:<input type="number">
+    <input type="submit"><br>
+</form>
+
+<br>
+<form>
+
+    颜色:<input type="color">
+    <input type="submit"><br>
+</form>
+
+<br>
+<form>
+
+    日期:<input type="date">
+    <input type="submit"><br>
+</form>
+
+```
 
 
 
