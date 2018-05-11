@@ -176,7 +176,9 @@
 ```
 - 注意:
     - 所有主流浏览器都支持 <datalist> 标签，除了 Internet Explorer 和 Safari。 
-    
+ <br>   
+ <br>
+ <br>
 ##input 标签 HTML5新增标签 (仅作了解)
 
 - **input标签 邮箱类型**
@@ -234,6 +236,48 @@
 </form>
 
 ```
+
+####select选择标签
+- **作用:**
+    - 用于定义下拉列表
+- **格式1单组模式**
+
+    ``` 
+    <select >
+
+        <option>列表数据</option> 
+        
+    </select>
+    ```
+- **格式2分组模式**
+```
+<form >
+
+    <select >
+        <optgroup label="北京">
+            <option selected="selected">朝阳区</option>
+            <option>昌平区</option>
+            <option>通州区</option>
+        </optgroup>
+
+        <optgroup label="广州">
+            <option>天河区</option>
+            <option>越秀区</option>
+            <option>黄埔区</option>
+        </optgroup>
+
+    </select>
+</form>
+
+```
+
+
+- **注意点:**
+    - 下拉列表不能设置输入内容,但是可以直接在列表中选择内容
+    - 可以给选择标签设置默认值,给option标签添加selected 属性
+    - 可以通过optgroup标签包裹 option标签来给下拉数据分组,optgroup中增加label属性来添加分组名称
+    ![](/assets/屏幕快照 2018-05-11 上午11.37.08.png)
+    ![](/assets/屏幕快照 2018-05-11 上午11.47.50.png)
 
 
 
