@@ -30,8 +30,8 @@
 - **宽度和高度的属性**
     - 宽度和高度可以给table标签和td 标签使用,tr 标签是不能使用的.
     - 默认请款下表格的宽高是根据内容的多少决定的。
-    - 可以给table 标签的 width 和 height 属性设置来决定整个表格的宽高.
-    - 给td 标签设置了width 和 height 属性值
+    - 可以给table 标签的 width 和 height 属性设置来决定整个表格的宽高
+    - 给td 标签设置了width 和 height 属性值,在没有个table设置width 和 height 属性的情况下，表格的宽高由 td 的宽高来决定， 如果table 设置了宽高，然后又在td 中设置宽高的话，如果td 中的内容宽高小于table 的宽高，那么以table 的宽高来显示，如果td 的总宽高和td 内容的总宽高大于table 的宽高那么以 td 的总宽高显示，否则以table的宽高显示。
 
 
 - **水平对齐和垂直对齐的属性**
