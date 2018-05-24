@@ -53,6 +53,7 @@
         - 外边距是单元格与单元格之间的间距外边距（cellspacing）
 
         - 单元格内部与单元格内容之间的间距是内边距(cellPadding)
+    - 注意： 修改了内边距和外边距后table 的width 和 height 会发生变化。
 
 
 
