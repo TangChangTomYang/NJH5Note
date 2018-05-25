@@ -1,4 +1,4 @@
-##表格标签 
+##一、表格标签 
 - 表格标签是一个时代的代表,以前绝大多数的标签都是使用表格标签来实现的.**后来被 div 和 css 取代了**
 
 - 什么是表格标签?
@@ -56,7 +56,7 @@
     - 注意： 修改了内边距和外边距后table 的width 和 height 会发生变化。
     
     
-#### 通过table 标签实现细线表格   
+####二、通过table 标签实现细线表格   
 - 在表格标签中想通过指定外边距 cellspacing = 0 来实现细线表格是，其实他是将2条线合并为1条，所以看上去很不靠谱
 
 ```
@@ -82,6 +82,11 @@
 
 
 - 细线表格
+    - step1 给table标签设置bgcolor
+    - step2 给tr标签设置bgcolor
+    - step3 给table 标签设置 cellpacing = 1px
+    
+    table、tr、td 标签都支持bgcolor
 
 ```
     <table bgcolor="black" cellspacing="1px">
@@ -100,6 +105,64 @@
     </table>
 ```
 ![](/assets/屏幕快照 2018-05-25 下午2.59.38.png)
+
+
+####三、表格实战
+```
+<table border="1px" bgcolor="black" cellspacing="1px">
+
+        <!--表格标签中专门有个标签用于设置表格的标题-->
+        <!--caption 标签必须写在表格标签内-->
+        <!--caption 标签必须写在表格标签的第一行-->
+        <!--只要将 caption 标签 写在table标签内，那么标题就会自动 相对于table 居中-->
+        <caption>
+                <h2> 今日头条</h2>
+        </caption>
+
+        <!--在 table 标签中 有个th 标签用于 设置 表格的字段标题 它会自动加粗 -->
+        <tr bgcolor="#">
+            <th >排名</th>
+            <th> 关键词</th>
+            <th>趋势</th>
+            <th>今日搜索</th>
+            <th>最近7日</th>
+            <th>关键链接</th>
+
+        </tr>
+
+        <tr bgcolor="white">
+            <td>第一列数据</td>
+            <td>第二列数据</td>
+            <td>第三列数据</td>
+            <td>第四列数据</td>
+            <td>第五列数据</td>
+            <td>第六列数据</td>
+
+        </tr>
+
+        <tr bgcolor="white">
+            <td>第一列数据</td>
+            <td>第二列数据</td>
+            <td>第三列数据</td>
+            <td>第四列数据</td>
+            <td>第五列数据</td>
+            <td>第六列数据</td>
+
+        </tr>
+
+        <tr bgcolor="white">
+            <td>第一列数据</td>
+            <td>第二列数据</td>
+            <td>第三列数据</td>
+            <td>第四列数据</td>
+            <td>第五列数据</td>
+            <td>第六列数据</td>
+        </tr>
+    </table>
+```
+
+![](/assets/屏幕快照 2018-05-25 下午4.16.11.png)
+
 
 
 
