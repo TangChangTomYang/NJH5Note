@@ -219,6 +219,54 @@
  
 ####四、单元格合并
 
+```
+<table border="1px" bgcolor="black" cellspacing="1px" >
+
+            <caption>表格的标题</caption>
+
+            <thead>
+                 <tr bgcolor="white">
+                     <th> 列标题 </th>
+                     <th> 列标题 </th>
+                     <th> 列标题 </th>
+                     <th> 列标题 </th>
+                 </tr>
+            </thead>
+
+            <tbody>
+                <tr bgcolor="white">
+
+                    <!--colspan="2" 表示将当前的单元格 看做几个单元格，即合并单元格-->
+                    <!--注意： 如果把当前的单元格（td ）看做成多个单元格后，那么需要 在当前的行减少相应个数的单元格-->
+
+                    <td colspan="2">内容1</td>
+                    <td>内容1</td>
+                    <td>内容2</td>
+                </tr>
+                <tr bgcolor="white"  >
+
+                    <td  bgcolor="green">内容1</td>
+                    <td>内容2</td>
+                    <td>内容1</td>
+                    <!--多行列合并后，下一行的数据 也许要减少相应个数的单元格-->
+                    <td rowspan="2" >内容5</td>
+
+                </tr>
+                <tr bgcolor="white"   >
+
+                    <td  bgcolor="green">内容1</td>
+                    <td>内容2</td>
+                    <td>内容1</td>
+                    <!--<td >内容5</td>-->
+
+                </tr>
+            </tbody>
+
+
+        </table>
+```
+![](/assets/屏幕快照 2018-05-25 下午5.30.51.png)
+
    
          
     
