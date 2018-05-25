@@ -166,6 +166,59 @@
 
 
 
+####四、表格标签内容的划分
+
+- 由于表格中存储的数据比较复杂，为了方便管理和以及提升语义。我们可以将表格中的存储数据进行分类。
+<br>**表格中的存储数据可以分为4类：**
+- 1、表格的标题
+- 2、表格的表头信息
+- 3、表格的主题信息
+- 4、表格的尾页信息
+
+![](/assets/屏幕快照 2018-05-25 下午4.21.17.png)
+
+```
+ <table border="1px" bgcolor="black" cellspacing="1px" >
+
+            <caption>表格的标题</caption>
+
+            <thead>
+                 <tr bgcolor="white">
+                     <th> 列标题 </th>
+                     <th> 列标题 </th>
+                 </tr>
+            </thead>
+
+            <tbody>
+                <tr bgcolor="white">
+
+                    <td>内容1</td>
+                    <td>内容2</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr bgcolor="white">
+                    <td>尾部1</td>
+                    <td>尾部2</td>
+                </tr>
+
+
+            </tfoot>
+
+
+        </table>
+    
+    <!--caption 用于指定表格的标题-->
+    <!--thead 用于指定标题的字段-->
+    <!--tbody 用于显示表格的内容-->
+    <!--tfoot 用于显示表格的尾部-->
+    ```
+
+
+
+
+
 
 
 
