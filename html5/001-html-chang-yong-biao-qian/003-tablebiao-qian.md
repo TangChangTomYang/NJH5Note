@@ -60,6 +60,7 @@
 - 在表格标签中想通过指定外边距 cellspacing = 0 来实现细线表格是，其实他是将2条线合并为1条，所以看上去很不靠谱
 
 ```
+// table 的 border 是== 0
   <table border="1" cellpadding="0">
 
             <tr>
@@ -78,6 +79,27 @@
         </table>
 ```
 ![](/assets/屏幕快照 2018-05-25 下午2.51.58.png)
+
+
+- 细线表格
+
+```
+    <table bgcolor="black" cellspacing="1px">
+
+        <tr bgcolor="white">
+                <td>王五</td>
+                <td>王五</td>
+
+        </tr>
+
+        <tr bgcolor="white">
+                <td>王五</td>
+                <td>王五</td>
+
+        </tr>
+    </table>
+```
+![](/assets/屏幕快照 2018-05-25 下午2.59.38.png)
 
 
 
