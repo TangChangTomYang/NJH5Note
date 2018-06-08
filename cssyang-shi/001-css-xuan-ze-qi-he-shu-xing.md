@@ -1,5 +1,5 @@
 ##一、字体属性
-
+####一、字体属性(样式、粗细、字号、字体名称) 
 - 1、**规定文字样式的属性,font-style**<br>格式:
 
 ``` 
@@ -41,10 +41,9 @@ font-family:"楷体";
 
 
 
-***
-***
+*** 
 
-##二、字体属性补充
+####二、字体名称属性补充
 - 1、**如果设置的字体不存在,系统会默认采用宋体显示,如果设置的字体不存在,而我们又不想用默认的字体显示怎么办?**
 ```
 font-family="可能不存在字体","备选字体1", "备选字体2",...;
@@ -58,10 +57,9 @@ font-family:"英文字体","中文字体";
 
 **补充:**<br>在企业开发中最常用的字体有一下几个.<br>(1)、中文： 宋体(SimSun)、黑体(SimHei)、微软雅黑(Microsoft YaHei)。<br>(2)、“Time New Roman”、”Arial“<br>还有一点,并不是名称是英文的都是英文,中文也有英文名字.
 
-***
-***
+*** 
 
-##三、一次性设置字体的 样式、粗细、大小、字体属性
+####三、一次性设置 样式、粗细、大小、字体名称属性
 
 ```
 font-style: italic;
@@ -75,15 +73,50 @@ font-familay:"宋体";
 font:italic bold 30px "宋体";
 // 注意:属性之间使用空格分割
 ```
+**注意:**<br>(1)、在这种缩写格式中有的属性可以省略，（style 属性可以省略、weight 属性可以省略）<br>
+(2)、在这种缩写格式中style 和 weight 的位置可以交换,size 和 family 的位置必须在style 和 weight 之后且size必须在family 前 .
+<br>(3)、在这种属性中有的属性值不能省略（size 和 family 不能省略）否则其他的属性也不能生效
 
-**注意:**<br>(1)、在这种缩写格式中有的属性可以省略，（style 属性可以省略、weight 属性可以省略）<br>(2)、在这种缩写格式中style 和 weight 的位置可以交换,size 和 family 的位置必须在style 和 weight 之后且size必须在family 前 ,<br>(3)、在这种属性中有的属性值不能省略（size 和 family 不能省略）否则其他的属性也不能生效
 
-
-
+<br><br><br>
 ***
 ***
-##四
+##二、文本装饰属性
 
+- 1、**文本装饰属性,text-decoration**<br>**格式:**
+```
+text-decoration:underline;
+```
+**取值:** 
+<br>underline: 下划线
+<br> line-through: 中划线
+<br>overline:上划线
+<br>**none:什么都没有,默认就是这个属性(作用老大了,比如去除a标签的下划线)**
+
+
+- 2、**文本水平对齐属性,text-align**<br>**格式**:
+```
+text-aligh:left;
+```
+**取值:** 
+<br>left 左对齐 
+<br>right 右对齐 
+<br>right 右对齐
+
+
+- 3、**文本缩进的属性,text-indent**<br>**格式:**
+```
+text-indent:2em;
+或者
+text-indent:10px;
+```
+**取值**<br>
+2em,其中em表示一个文字的宽度,当然也可以使用像素,eg:10px
+
+
+
+
+ 
 
 
 
