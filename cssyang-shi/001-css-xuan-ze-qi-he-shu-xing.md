@@ -115,6 +115,23 @@ text-indent:10px;
 
 
 
+***
+***
+##三、字体颜色属性
+
+- 1、**字体颜色的属性，color**<br>**格式**
+```
+color:red;
+color:rgb(255,0,0);
+color:rgba(255,0,0,1);  //注意 alpha 的取值是 0~1 
+color:#FF0000;
+color:#F00;
+```
+
+
+
+
+
 
  
 
