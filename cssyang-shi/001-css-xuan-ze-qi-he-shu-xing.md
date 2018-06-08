@@ -1,4 +1,4 @@
-##一、属性
+##一、字体属性
 
 - 1、**规定文字样式的属性,font-style**<br>格式:
 
@@ -56,8 +56,33 @@ font-family="可能不存在字体","备选字体1", "备选字体2",...;
 font-family:"英文字体","中文字体";
 ```
 
-**补充:**<br>在企业开发中最常用的字体有一下几个.<br>(1)、中文： 宋体、黑体、微软雅黑。<br>(2)、“Time New Roman”、”Arial“<br>还有一点,并不是名称是英文的都是英文,中文也有英文名字.
+**补充:**<br>在企业开发中最常用的字体有一下几个.<br>(1)、中文： 宋体(SimSun)、黑体(SimHei)、微软雅黑(Microsoft YaHei)。<br>(2)、“Time New Roman”、”Arial“<br>还有一点,并不是名称是英文的都是英文,中文也有英文名字.
 
+***
+***
+
+##三、一次性设置字体的 样式、粗细、大小、字体属性
+
+```
+font-style: italic;
+font-weight:bold;
+font-size:30px;
+font-familay:"宋体";
+```
+可以简写成下面这样:<br>**格式:**
+`font: style weight size family;`<br>具体如下:
+```
+font:italic bold 30px "宋体";
+// 注意:属性之间使用空格分割
+```
+
+**注意:**<br>(1)、在这种缩写格式中有的属性可以省略，（style 属性可以省略、weight 属性可以省略）<br>(2)、在这种缩写格式中style 和 weight 的位置可以交换,size 和 family 的位置必须在style 和 weight 之后且size必须在family 前 ,<br>(3)、在这种属性中有的属性值不能省略（size 和 family 不能省略）否则其他的属性也不能生效
+
+
+
+***
+***
+##四
 
 
 
