@@ -140,8 +140,20 @@ div p{
 #address .person{
 
 }
+
+再如:
+.person .man{
+            color:green;
+        }
+
 ```
 等等这些都是可以的.
+(4)、后代选择器可以无限往后延伸，比如：
+```
+div ul li p a {
+    color = blue;
+}
+```
 
 
 
