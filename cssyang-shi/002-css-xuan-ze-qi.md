@@ -145,6 +145,9 @@ div p{
 .person .man{
             color:green;
         }
+        
+        
+等等 选择器的组合
 
 ```
 等等这些都是可以的.
