@@ -13,4 +13,6 @@
   * [001-CSS 字体的属性](cssyang-shi/001-css-zi-ti-de-shu-xing.md)
   * [002-CSS 选择器](cssyang-shi/002-css-xuan-ze-qi.md)
   * [003-谷歌浏览器的使用](cssyang-shi/003gu-ge-liu-lan-qi-de-shi-yong.md)
+* CSS 3大特性
+  * [001-CSS 继承特性](001-css-ji-cheng-te-xing.md)
 
