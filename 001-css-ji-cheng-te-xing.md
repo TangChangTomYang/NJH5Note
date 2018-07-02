@@ -36,11 +36,11 @@ p{
     color:red;
 }
 
-.name{
+#name{
     color:red;
 }
 
-#person{
+.person{
     color:red;
 }
 
@@ -86,7 +86,7 @@ p{
     color:red;
 }
 
-.name{
+#name{
     color:blue;
 }
 
@@ -102,6 +102,38 @@ p{
     </li>
 </ul>
 ```
+
+
+
+
+####四、优先级之 important
+
+- 1、**什么叫是important?**<br><br>**作用:**<br>**用于提升某个直接选中标签的选择器中某个属性的优先级,可以将被指定的属性的优先级提升为最高**
+
+```
+不同选择器 直接选中
+p{
+    color:red !important;  提升此属性为最高 优先级
+}
+
+#name{
+    color:blue;
+}
+
+.person{
+    color:orange;
+}
+
+
+
+<ul>
+    <li>
+        <p id=name, class=person> 我是段落</p>
+    </li>
+<ul>
+```
+
+
 
 
 
