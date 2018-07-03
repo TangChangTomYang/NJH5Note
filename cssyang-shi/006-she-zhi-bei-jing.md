@@ -21,3 +21,7 @@ background-repeat: repeat;    // 平铺 默认就是这个
 
 
 
+- 3 **背景定位图片**
+
+
+
