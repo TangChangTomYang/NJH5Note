@@ -22,6 +22,10 @@ body{
 - 1、**什么是层叠性?**<br><br>**作用:**<br>**层叠性就是CSS处理冲突的一种能力**<br><br>**注意点:**<br> **层叠性只有在 "多个选择器选中 同一个标签" 然后又设置了相同的属性, 才会发生层叠性 **<br> CSS 全称:cascading style sheet
 
 ```
+p{
+    color: red;
+}
+
 .person {
     color: blue;
 }
@@ -30,9 +34,7 @@ body{
     color: orange;
 }
 
-p{
-    color: red;
-}
+
 <p id="name", class="person">我是段落</p>
 ```
 
