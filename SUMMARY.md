@@ -20,4 +20,5 @@
   * [003-table标签](html-chang-yong-biao-qian/003-tablebiao-qian.md)
   * [004-HTML5详情和概要标签](html-chang-yong-biao-qian/004-html5xiang-qing-he-gai-yao-biao-qian.md)
   * [005-marquee 跑马灯标签](html-chang-yong-biao-qian/005-marquee-pao-ma-deng-biao-qian.md)
+  * 006-label 标签
 
