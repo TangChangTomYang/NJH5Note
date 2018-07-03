@@ -14,6 +14,4 @@
   * [002-CSS 选择器](cssyang-shi/002-css-xuan-ze-qi.md)
   * [003-谷歌浏览器的使用](cssyang-shi/003gu-ge-liu-lan-qi-de-shi-yong.md)
   * [004-CSS 3大特性 继承 层叠 优先级](cssyang-shi/004-css-3da-te-xing-ji-cheng-ceng-die-you-xian-ji.md)
-* [CSS 3大特性](css-3da-te-xing.md)
-  * [001-CSS 继承特性](001-css-ji-cheng-te-xing.md)
 
