@@ -17,4 +17,5 @@
   * [003-谷歌浏览器的使用](cssyang-shi/003gu-ge-liu-lan-qi-de-shi-yong.md)
   * [004-CSS 3大特性 继承 层叠 优先级](cssyang-shi/004-css-3da-te-xing-ji-cheng-ceng-die-you-xian-ji.md)
   * [005-CSS 显示模式](cssyang-shi/005-css-xian-shi-mo-shi.md)
+  * [006- 设置背景](cssyang-shi/006-she-zhi-bei-jing.md)
 
