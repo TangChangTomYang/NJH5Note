@@ -8,3 +8,16 @@
   background-image: url(http://img3.imgtn.bdimg.com/it/u=3958361117,863751032&fm=27&gp=0.jpg);
 ```
 
+
+- 2 **设置背景图片是否平铺,如何平铺?**
+
+```
+background-repeat: no-repeat; // 不平铺
+background-repeat: repeat-x;  // 水平平铺
+background-repeat: repeat-y;  // 竖直平铺
+background-repeat: repeat;    // 平铺 默认就是这个
+```
+![](/assets/Snip20180703_5.png)
+
+
+
