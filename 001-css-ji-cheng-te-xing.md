@@ -169,14 +169,35 @@ p{
 
 - 2、**权重计算规则**<br>(1)、首先计算有多少个id选择器,id选择器的优先级最高.<br>(2)、如果id 选择器的数量一样,那么再看类名的个数,类名个数多的优先级最高<br>(3)、如果类名数量一样,再看标签名称的个数,标签名称个数多的优先级最高<br>(4)、如果id个数一样,类名个数一样,标签个数一样 那么就会回往下选了,那么谁写在后面就听谁的.
 
+**注意点:**<br>**权重只有在直接选中的标签中才有效**
 ```
-#name .person p{
-    color:red;
+这些都是直接选中
+ #name{
+    color: red;
 }
 
-.person p{
-    color:red;
+p{
+    color:pink;
 }
+.person{
+    color: blue;
+}
+
+div p{
+    color: orange;
+}
+
+div ul li p {
+    color: cyan;
+}
+
+<div>
+    <ul>
+        <li>
+            <p id="name", class="person" >我是段落</p>
+        </li>
+    </ul>
+</div>
 
 ```
 
