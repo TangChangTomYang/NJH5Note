@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [First Chapter](chapter1.md)
+* [快捷键](kuai-jie-jian.md)
 * [HTML 常用标签](html-chang-yong-biao-qian.md)
   * [001- form表单及其内部标签的使用](html-chang-yong-biao-qian/001-formbiao-dan-ji-qi-nei-bu-biao-qian-de-shi-yong.md)
   * [002-多媒体标签](html-chang-yong-biao-qian/002duo-mei-ti-biao-qian.md)

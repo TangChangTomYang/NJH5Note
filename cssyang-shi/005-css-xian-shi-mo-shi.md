@@ -3,6 +3,8 @@
 **在HTML 中 HTML 将所有的标签分为2类,分别是: 容器级标签 和 文本级标签<br> 在CSS 中 CSS 也将所有的标签分为 2 类, 分别是块级元素 和 行内元素**
 
 
+####一、元素的类别
+
 - 1、**什么是块级元素,什么是行内元素?**<br> 块级元素 会独占一行<br>行内元素不会独占一行<br><br> 所有的容器级标签都是块级元素,即: div h ul ol dl li dt dd... <br> 所有的文本标签处理p标签,即:span buis strong em ins del ...
 
 
@@ -13,4 +15,26 @@
 
 <br>
 - 3、 **行内块级元素**<br>**行内块级元素 既不能独占一行,但又可以设置宽度和高度**.<br>比如: img 标签
+
+
+####二、元素显示模式的转换
+
+
+- **如何转换CSS元素的显示模式?**<br><br> **设置元素的display 属性**,如下:
+
+```
+标签选择器{
+    display: inline; 切换显示模式为行内模式
+}
+
+标签选择器{
+    display: block; 切换显示模式为块级模式
+}
+
+标签选择器{
+    display: inline-block; 切换显示模式为行内块级模式
+}
+
+```
+**快捷键:**<br> display : inline ; --> di 行内快捷键<br> display:block; --> db 块级快捷键<br> display:inline-block; --> db 行内块级快捷键
 
