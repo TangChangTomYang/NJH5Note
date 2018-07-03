@@ -14,11 +14,5 @@
   * [002-CSS 选择器](cssyang-shi/002-css-xuan-ze-qi.md)
   * [003-谷歌浏览器的使用](cssyang-shi/003gu-ge-liu-lan-qi-de-shi-yong.md)
   * [004-CSS 3大特性 继承 层叠 优先级](cssyang-shi/004-css-3da-te-xing-ji-cheng-ceng-die-you-xian-ji.md)
-* [HTML5 常用标签](html5-chang-yong-biao-qian.md)
-  * [001- form表单及其内部标签的使用](001-formbiao-dan-ji-qi-nei-bu-biao-qian-de-shi-yong.md)
-  * [002-多媒体标签](002duo-mei-ti-biao-qian.md)
-  * [003-table标签](003-tablebiao-qian.md)
-  * [004-HTML5详情和概要标签](004-html5xiang-qing-he-gai-yao-biao-qian.md)
-  * [005-marquee 跑马灯标签](005-marquee-pao-ma-deng-biao-qian.md)
-  * [006-label 标签](006-label-biao-qian.md)
+* [HTML 常用标签](html-chang-yong-biao-qian.md)
 
