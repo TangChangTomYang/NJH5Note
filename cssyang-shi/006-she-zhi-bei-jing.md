@@ -38,3 +38,25 @@ background-position: 50px 60px;  // 表示x 方向距离左边50px,表示y 方�
 ```
 
 
+- 4 **背景属性的缩写方式:**<br><br> **格式:**<br>
+```
+background 背景颜色 背景图片 平铺方式 关联方式  定位方式
+```
+**通过这种方式可以同时给背景设置多个属性,比如:**
+
+```
+width: 500px;
+height: 500px;
+background: red;
+background-image: url(abc.jpg);
+background-repeat: no-repeat;
+background-position: top left;
+
+可以简写为
+background:red url(abc.jpg) no-repeat top left
+```
+
+
+
+
+
