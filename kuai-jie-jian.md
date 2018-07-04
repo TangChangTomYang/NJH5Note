@@ -1,4 +1,6 @@
 **快捷键:**
+font: 1em Arial, sans-serif; --> f+ 文字属性快捷键(样式、粗细、大小、字体名称)
+
 display:inline ; --> di 行内快捷键
 display:block; --> db 块级快捷键
 display:inline-block; --> db 行内块级快捷键 
@@ -15,7 +17,7 @@ background: #fff url() 0 0 no-repeat; --> bg+ 背景连写快捷方式
 width: 500px; --> w500 设置宽度快捷键
 height: 500px; --> h500 设置高度快捷键
 
-
+border: 1px solid #; --> bd+ 一次性设置边框快捷键(粗细 样式 颜色)
 ```
 <div class="header"></div>
 快捷键
