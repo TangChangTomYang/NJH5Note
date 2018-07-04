@@ -21,7 +21,20 @@ background-repeat: repeat;    // 平铺 默认就是这个
 
 
 
-- 3 **背景定位图片**
+- 3 **背景定位图片**<br>**在CSS 中,有一个叫做 background-position 的属性, 是专门用于设背景图片位置的,此属性 有2个参数 x 方向参数 和 Y方向参数** 如下:
 
+**(1)方位取值**
+```
+水平方位: left center right
+垂直方位: top center bottom;
+
+background-position: left bottom;
+```
+**(2) 具体像素取值(距离左上角偏移)**
+
+```
+background-position: 50px 60px;  // 表示x 方向距离左边50px,表示y 方向距离上边60px
+
+```
 
 
