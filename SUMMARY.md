@@ -18,4 +18,5 @@
   * [004-CSS 3大特性 继承 层叠 优先级](cssyang-shi/004-css-3da-te-xing-ji-cheng-ceng-die-you-xian-ji.md)
   * [005-CSS 显示模式](cssyang-shi/005-css-xian-shi-mo-shi.md)
   * [006- 设置背景](cssyang-shi/006-she-zhi-bei-jing.md)
+  * [007- img 和background 图片差异](cssyang-shi/007-img-he-background-tu-pian-cha-yi.md)
 

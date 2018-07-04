@@ -8,6 +8,8 @@ background-image: url(images/picture.jpg); -->bi 设置背景图快捷键
 background-repeat: no-repeat; --> bgr 背景平铺方式快捷键
 background-attachment: fixed; --> bga 背景关联属性快捷键
 background-position: 0 0;--> 背景定位快捷键
+background: #fff url() 0 0 no-repeat; --> bg+ 背景连写快捷方式
+
 
 
 width: 500px; --> w500 设置宽度快捷键
