@@ -80,6 +80,30 @@ border: 1px solid #  // 粗细 样式 颜色
 padding: 10px 10px 10px 10px;
 ```
 
+
+
+
+####三 外边距(margin)
+
+- 1 **什么是外边距(margin)?<br> 标签与标签之间的距离就是外边距(margin)**
+
+<br> **格式:<br> (1) 非连写**
+```
+margin-top:5px;
+margin-left:15px;
+margin-bottom:20px;
+margin-right:10px;
+```
+**(2)连写**
+```
+margin: 上 右 下 左;
+比如:
+margin : 10px 20px 30px 40px;
+```
+
+**注意:<br> 外边距(Margin )和内边距(padding)写法和注意点,省略写法也是一样的**
+
+
  
  
  
