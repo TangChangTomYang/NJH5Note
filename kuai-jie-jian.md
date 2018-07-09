@@ -12,6 +12,18 @@ background-attachment: fixed; --> bga 背景关联属性快捷键
 background-position: 0 0;--> 背景定位快捷键
 background: #fff url() 0 0 no-repeat; --> bg+ 背景连写快捷方式
 
+div.abc --> 快速生成一个div 快捷键
+div.box$*5 --> 快速生成6个div box,如下:
+
+```
+div.box$*5 // 快捷键
+<div class="box1"></div>
+<div class="box2"></div>
+<div class="box3"></div>
+<div class="box4"></div>
+<div class="box5"></div>
+```
+
 
 
 width: 500px; --> w500 设置宽度快捷键
