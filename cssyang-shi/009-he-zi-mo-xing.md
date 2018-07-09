@@ -139,7 +139,12 @@ margin : 10px 20px 30px 40px;
 
 #### 七 盒子 box-sizing 属性
 
-- 1 **在 CSS3 中新增了一个 box-sizing 属性,这个属性可以保证我们给盒子新增 padding 和 border 之后,盒子元素的宽度 和  元素高度 不变化,<br>注意: 仅仅是设置padding 和 border 后不变, 设置 margin 后会变,如下图:![](/assets/Snip20180709_15.png)**
+- 1 **在 CSS3 中新增了一个 "box-sizing" 属性,这个属性可以保证我们给盒子新增 padding 和 border 之后,盒子元素的宽度 和  元素高度 不变化,<br>注意: 仅仅是设置padding 和 border 后不变, 设置 margin 后会变,如下图:![](/assets/Snip20180709_15.png)**
+
+- 2 ** box-sizing shuxing 是如何保证 增加 padding 和 border 后,盒子元素的宽高不变的呢? <br> 其实在增加 padding 和 border 之后想要保证盒子元素的宽高不变,就必须从元素内容的宽高嫁娶增加的宽度和高度**
+
+
+- **border-sizing的2个取值:<br> border-sizing: content-box; 时 元素的宽高 = 变宽(border) + 内边距(padding) + 内容宽度(width) <br> border-sizing: border-box; 时**
 
 
 
