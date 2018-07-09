@@ -120,10 +120,22 @@ margin : 10px 20px 30px 40px;
 
 **结论:<br> (1) 在HTML 中所有的标签都可以设置 宽度高度(width height)\ 内边距(padding)\ 边框(border)\ 外边距(margin).**
 
-- **什么是宽度 高度? <br> 指定标签中可以存放内容的区域,就是用宽度和高度来描述**
-- 
+- **什么是宽度 高度? <br> 指定标签中可以存放内容的区域,就是用宽度和高度来描述**<br>
+ ![](/assets/Snip20180709_3.png)
 
-![](/assets/Snip20180709_3.png)
+
+####六 盒子宽度和高度
+
+- 1 **内容的宽度和高度<br>通过width 和 height 给标签设置的宽度和高度,就是标签内容的宽度和高度**
+![](/assets/Snip20180709_5.png)
+
+- 2 **元素的宽度和高度<br> 元素的宽的和高度就是指的是元素可以看见的范围,具体可以这样来计算: <br>元素宽度= (border-left) + (padding-left) + (width) + (padding-right) + (border-right) <br> 元素高度= (border-top) + (padding-top) + (height) + (padding-bottom) + (border-bottom)**
+![](/assets/Snip20180709_4.png)
+
+
+- 3 **元素空间的宽度和高度<br>元素空间宽度= (margin-left) + (border-left) + (padding-left) + (width) + (padding-right) + (border-right) + (margin-right) <br> 元素空间高度= (margin-top) + (border-top) + (padding-top) + (height) + (padding-bottom) + (border-bottom) + (margin-bottom)**<br>
+![](/assets/Snip20180709_6.png)
+
 
  
  
