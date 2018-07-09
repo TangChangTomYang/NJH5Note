@@ -137,6 +137,13 @@ margin : 10px 20px 30px 40px;
 ![](/assets/Snip20180709_6.png)
 
 
+#### 七 盒子 box-sizing 属性
+
+- 1 **在 CSS3 中新增了一个 box-sizing 属性,这个属性可以保证我们给盒子新增 padding 和 border 之后,盒子元素的宽度 和  元素高度 不变化,<br>注意: 仅仅是设置padding 和 border 后不变, 设置 margin 后会变,如下图:![](/assets/Snip20180709_15.png)**
+
+
+
+
  
  
  
