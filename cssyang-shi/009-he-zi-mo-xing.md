@@ -116,6 +116,15 @@ margin : 10px 20px 30px 40px;
 
 ####五 CSS 盒子模型
 
+
+
+**结论:<br> (1) 在HTML 中所有的标签都可以设置 宽度高度(width height)\ 内边距(padding)\ 边框(border)\ 外边距(margin).**
+
+- **什么是宽度 高度? <br> 指定标签中可以存放内容的区域,就是用宽度和高度来描述**
+- 
+
+![](/assets/Snip20180709_3.png)
+
  
  
  
