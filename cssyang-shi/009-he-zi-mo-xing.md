@@ -40,7 +40,10 @@ border: 1px solid #  // 粗细 样式 颜色
  
  ####二 内边距 Padding
  
- - 1 **什么是内边距(Padding)? <br> 内边距(padding)就是边框(border)和内容(content)之间的距离**<br> <br> **注意:<br> 给标签设置内边距(padding)后,标签占有的宽度和高度会发生变化**
+ - 1 **什么是内边距(Padding)? <br> 内边距(padding)就是边框(border)和内容(content)之间的距离**<br> <br> **注意:<br>(1) 给标签设置内边距(padding)后,标签占有的宽度和高度会发生变化.<br>(2) 设置padding后 内边距的背景色和标签背景色一样<br> (3) 设置padding后,内边距的背景图设标签的 一样**
+
+ ** 总结:
+ 设置padding 后标签占用的宽高会发生变化,标签的宽高范围内的背景色和背景图不和原来标签一样.**
  
  ![](/assets/Snip20180709_1.png)
  **格式:<br>(1) 非连写:**
