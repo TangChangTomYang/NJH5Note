@@ -35,8 +35,9 @@ border: 1px solid #  // 粗细 样式 颜色
 
  ```
  
- 
- 
+ ---
+
+ <br>
  
  ####二 内边距 Padding
  
@@ -82,7 +83,9 @@ padding: 10px 10px 10px 10px;
 
 
 
+---
 
+<br>
 ####三 外边距(margin)
 
 - 1 **什么是外边距(margin)?<br> 标签与标签之间的距离就是外边距(margin),<br><br>注意,行内标签之间由于换行符会有一个间距,这个不是外边距 是空格**<br>
@@ -102,7 +105,9 @@ margin : 10px 20px 30px 40px;
 **注意:<br>(1) 外边距(Margin )和内边距(padding)写法和注意点,省略写法也是一样的<br>(2) 外边距(占用部分)是不会有标签的背景色和背景图的,这是和内边距(padding) 的最主要的区别**
 
 
+---
 
+<br>
 ####四 外边距合并现象
 
 - **在默认情况下,标签的水平方向上 外边距是会叠加的,但是在垂直方向上,外边距是不会叠加的,谁的外边距大就听谁的(小的外边距被忽略),我们称外边距在垂直方向上的这种不叠加现象叫做,---外边距合并显现. **
@@ -113,7 +118,9 @@ margin : 10px 20px 30px 40px;
 
 
 
+---
 
+<br>
 ####五 CSS 盒子模型
 
 
@@ -123,7 +130,9 @@ margin : 10px 20px 30px 40px;
 - **什么是宽度 高度? <br> 指定标签中可以存放内容的区域,就是用宽度和高度来描述**<br>
  ![](/assets/Snip20180709_3.png)
 
+---
 
+<br>
 ####六 盒子宽度和高度
 
 - 1 **内容的宽度和高度<br>通过width 和 height 给标签设置的宽度和高度,就是标签内容的宽度和高度**
@@ -136,31 +145,36 @@ margin : 10px 20px 30px 40px;
 - 3 **元素空间的宽度和高度<br>元素空间宽度= (margin-left) + (border-left) + (padding-left) + (width) + (padding-right) + (border-right) + (margin-right) <br> 元素空间高度= (margin-top) + (border-top) + (padding-top) + (height) + (padding-bottom) + (border-bottom) + (margin-bottom)**<br>
 ![](/assets/Snip20180709_6.png)
 
+---
 
+<br>
 #### 七 盒子 box-sizing 属性
 
-- 1 **在 CSS3 中新增了一个 "box-sizing" 属性,这个属性可以保证我们给盒子新增 padding 和 border 之后,盒子元素的宽度 和  元素高度 不变化,<br>注意: 仅仅是设置padding 和 border 后不变, 设置 margin 后会变,如下图:![](/assets/Snip20180709_15.png)**
+- 1 **在 CSS3 中新增了一个 "box-sizing" 属性,这个属性可以保证我们给盒子新增 padding 和 border 之后,盒子元素的宽度 和  元素高度 不变化,<br><br>注意:<br> 仅仅是设置 padding 和 border 后不变, 设置 margin 后会变,如下图:![](/assets/Snip20180709_15.png)**
 
-- 2 ** box-sizing shuxing 是如何保证 增加 padding 和 border 后,盒子元素的宽高不变的呢? <br> 其实在增加 padding 和 border 之后想要保证盒子元素的宽高不变,就必须从元素内容的宽高嫁娶增加的宽度和高度**
-
-
-- 3 **border-sizing的2个取值:<br> border-sizing: content-box; 时 元素的宽高 = 变宽(border) + 内边距(padding) + 内容宽度\高度(width) <br> border-sizing: border-box; 时, 元素宽高= 标签的宽度\高度, 元素内容宽高 = 标签的宽度 \ 高度 - 边框(border) - 内边距(padding)**
+- 2 ** box-sizing shuxing 是如何保证 增加 padding 和 border 后,盒子元素的宽高不变的呢? <br> 其实在增加 padding 和 border 之后想要保证盒子元素的宽高不变,就必须从元素内容的宽高减去增加的宽度和高度**
 
 
+- 3 **border-sizing的2个取值:<br> (1) 取值 = content-box; 时 元素的宽高 = 边框宽(border) + 内边距(padding) + 内容宽度\高度(width) <br> (2) 取值 = border-box; 时, 元素宽高= 标签的宽度\高度, 元素内容宽高 = 标签的宽度 \ 高度 - 边框(border) - 内边距(padding)**
 
+
+---
+
+<br>
 ####八 设置一个元素 在另一个元素中居中显示
 
-- **方案1: 父标签padding <br>设置父标签的 padding, 把 子标签 挤到,看起来居中的位置.<br>这种方案,为什么可以呢?<br> 因为设置一个标签的 padding  不会影响原来的背景色和背景图片的显示(这是主要原因 原理)**
+- **方案1: 设置父标签padding** <br><br>设置父标签的 padding, 把 子标签 挤到,看起来居中的位置.<br><br>这种方案,为什么可以呢?<br> 因为设置一个标签的 padding  不会影响原来的背景色和背景图片的显示(这是主要原因 原理)<br><br>注意点:<br> 这种方法虽然是推荐的方法,但是要注意到修改了父标签的 padding 会改变父标签的元素尺寸,因此为了达到既又修改了子元素的位置又不影响父标签的布局 增加多少padding 就需要从父标签的 元素内容尺寸中相应的减去
 
 
 - **方案2: 子标签margin<br>**
-```
-step1: 
-给父标签设置一个border 属性 (保证父标签不会因为子标签设置了margin后 被一起顶下来)
 
-step2: 
-设置子标签的  margin-top 和 margin -left 属性
-```
+ ```
+ step1: 
+  给父标签设置一个border 属性 (保证父标签不会因为子标签设置了margin后 被一起顶下来)
+
+  step2: 
+ 设置子标签的  margin-top 和 margin -left 属性
+ ```
 **注意点:<br>(1) 如果两个盒子是嵌套关系,那么设置了里面的一个盒子的 顶部的外边距, 那么外面一个盒子也会被顶下来<br>(2) 如果外面的盒子不想被一起顶下来,那么可以给外面的标签设置一个边框属性(border)<br> (3)**
 
 
