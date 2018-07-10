@@ -181,9 +181,13 @@ margin : 10px 20px 30px 40px;
 (2) **margin:0px auto; 只能设置水平居中,没有 margin: auto auto 这样的写法,竖直方向是没有 auto 的概念的(竖直方向无效)**
 
 
+ ---
+
+<br>
+####九 盒子的居中 和 内容的居中
  
- 
- 
+ - 1 **text-align:center; 和 margin:0px auto 的区别?<br><br>作用:**<br>(1) text-align 的作用很简单,就是用来设置某个标签内 文字和图片的居中.
+ ![](/assets/Snip20180710_2.png)
 
  
 
