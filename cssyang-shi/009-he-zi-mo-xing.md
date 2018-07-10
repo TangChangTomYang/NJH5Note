@@ -186,8 +186,9 @@ margin : 10px 20px 30px 40px;
 <br>
 ####九 盒子的居中 和 内容的居中
  
- - 1 **text-align:center; 和 margin:0px auto 的区别?<br><br>作用:**<br>(1) text-align 的作用很简单,就是用来设置某个标签内 文字和图片的居中.
+ - 1 **text-align:center; 和 margin:0px auto 的区别?<br><br>作用:**<br>(1) text-align 的作用很简单,就是用来设置某个标签内 文字和图片的居中.<br>
  ![](/assets/Snip20180710_2.png)
+ <br>(2)margin:0px auto; 的作用其实也很简单,就是让一个盒子在父控件(父标签中居中)
 
  
 
