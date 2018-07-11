@@ -107,7 +107,48 @@
         - 2 但是, 一个浮动的标签是不能撑起父元素的,(即 浮动标签内容的高度不会影响 标准流中 盒子的高度(块级标签的高度))
         <br><br>
         **清除浮动的方式1:**<br>给前面一个父标签(块级标签)设置高度,这样的话后一个盒子的浮动元素就不会去找前一个盒子的浮动元素(因为不是同一行了) <br>
-        注意点:<br> 在企业开发中,我们能不写高度就不写高度,所以这种方式用的少.<br><br> **清除浮动的方式2: &emsp;clear 属性 **<br> (1) 给后面的盒子设置 clear 属性 <br><br> **clear属性的取值:**<br> **none left right both **
+        注意点:<br> 在企业开发中,我们能不写高度就不写高度,所以这种方式用的少.<br><br> **清除浮动的方式2: &emsp;clear 属性 **<br> (1) 给后面的盒子设置 clear 属性 <br><br> **clear属性的取值:**<br> **&emsp;&emsp;none : 默认取值,按照浮动元素的排序顺序规则来排序(左浮动找左浮动, 右浮动来找右浮动).<br>&emsp;&emsp;left: 告诉浏览器不要找前面的左浮动元素<br>  &emsp;&emsp;right: 告诉浏览器不要找前面的右浮动元素 <br>&emsp;&emsp;both: 告诉浏览器不要找前面的 左浮动和右浮动元素** 在企业开发中both 用的最多
+        如下图所示, 因为盒子1和盒子2没有设置高度,因此后一个标签的浮动元素
+![](/assets/Snip20180711_13.png)<br>
+
+    ```
+     *{
+         padding: 0px;
+         margin: 0px;
+       }
+     .box1{
+        border: 1px solid #000;
+        }
+    .box2{
+        border: 1px solid #000;
+        clear: both;
+        }
+     p{
+        float: left;
+        border: 1px solid purple;;
+     }
+    .box1 p{
+        background: blue;
+     }
+    .box2 p{
+        background: yellow;
+    }
+    
+    <div class="box1">
+        <p>wo shi duan luo</p>
+        <p>wo shi duan luo</p>
+        <p>wo shi duan luo</p>
+    </div>
+    <div class="box2">
+        <p>wo shi duan luo</p>
+        <p>wo shi duan luo</p>
+        <p>wo shi duan luo</p>
+    </div> 
+    ```
+    如下入所示: 没有设置盒子的高度,后一个标签的浮动元素没有找前一个元素的浮动元素
+    ![](/assets/Snip20180711_14.png)
+  <br>**clear 属性注意点**<br> 当给某个标签(盒子)设置clear 属性后 他的 margin 属性就会失效
+        
     
     
     
