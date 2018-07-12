@@ -22,6 +22,9 @@
     background: red;
     // 使用overflow 清除浮动
      overflow: hidden;
+     // 兼容overflow 在IE6 中的兼容问题
+     *zoom:1; 
+     
      }
     .box2{
      background: yellow;
@@ -53,3 +56,6 @@
     ![](/assets/Snip20180712_14.png)
     清除浮动后
     ![](/assets/Snip20180712_13.png)
+    
+    **注意点:**<br>(1) 因为overflow 是 CSS3之后推出来的,在IE6 中不支持,需要在overflow 中添加  *zoom:1; 
+
