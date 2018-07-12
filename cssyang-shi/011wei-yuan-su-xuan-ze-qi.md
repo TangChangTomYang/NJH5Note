@@ -28,11 +28,19 @@
         }
         // 在div内容后面增加一个子标签
         div::after{
+            // 指定添加的子元素的内容
             content: '后面';
+            // 指定添加的子元素的宽度
             width: 50px;
+            // 指定添加的子元素的高度
             height: 50px;
+            // 指定添加的子元素的背景色
             background: pink;
+            // 指定添加的子元素的 显示样式
             display: block;
+            // 指定添加的子元素是显示还是不显示
+            // visibility: hidden;
+            
         }
         
          <div> wo shi wen zi</div>
