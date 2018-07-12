@@ -82,6 +82,8 @@
             clear: both; /*注意,如果是用作 隔离墙的功能,这个clear 属性一定要加上*/
             display: block; /* 隔离墙一定要设置 添加标签为块级元素*/
             height: 0px;
+            // 这个隐藏属性,根据情况选择要不要设置
+            visibility: hidden;
         }
 
     <div class="box1">
@@ -100,6 +102,7 @@
     ![](/assets/Snip20180712_8.png)
     (伪元素选择器)清除浮动后:
     ![](/assets/Snip20180712_10.png)
+    **注意点:**
     
 
 
