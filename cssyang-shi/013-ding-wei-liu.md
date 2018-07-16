@@ -59,7 +59,19 @@ div{
 
 - 6、**绝对定位的应用场景 -- 子绝父相**<br>
 (1)、相对定位的弊端: 不会脱离标准流,会继续在标准流中占用一份空间,不利于布局界面.
-![](/assets/Snip20180716_30.png)
+![](/assets/Snip20180716_30.png)<br>
+(2)、子绝父相,就是子元素使用绝对定位,父元素使用相对定位
+```
+.father{
+    position:relative;
+}
+.son{
+    position:absolute;
+    left:40px;
+    top:-10px;
+}
+```
+![](/assets/Snip20180716_31.png)
 
 ####三、固定定位
 
