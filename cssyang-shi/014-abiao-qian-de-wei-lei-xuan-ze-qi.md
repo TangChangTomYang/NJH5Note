@@ -88,6 +88,11 @@ a:伪类选择器{
             transition-property: width;
             /*设置过度动画的时长*/
             transition-duration:2s;
+            // 以下2个可选
+            // 动画延时执行
+            transition-delay: 2s;
+            // 动画执行方式
+            transition-timing-function: linear; /*ease ease-in ease-out ease-in-out*/
 
     }
     /*设置过度动画的触法 事件 和 动画执行范围*/
