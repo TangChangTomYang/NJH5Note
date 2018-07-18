@@ -217,10 +217,15 @@ margin : 10px 20px 30px 40px;
  - 1 **text-align:center; 和 margin:0px auto 的区别?<br><br>作用:**<br>
  (1) text-align:center; 的作用很简单,就是用来设置某个标签内 文字和图片的居中.<br>
  ![](/assets/Snip20180710_2.png)
- <br>(2) margin:0px auto; 的作用其实也很简单,就是让一个盒子在父控件(父标签中居中)<br><br>
+ <br>(2) margin:0px auto; 的作用其实也很简单,就是让一个盒子(块级标签)在父控件(父标签中居中)<br><br>
  **总结:**<br> 
  (1) text-align 是让盒子的内容居中<br>
- (2)margin:0px auto; 是让盒子居中
+ (2)margin:0px auto; 是让盒子居中<br><br>
+ 
+ **经过我的测试验证得出结论:**
+ (1)只有块级标签可以设置 margin 和 padding.而行内和行内块是不能设置的除非修改display属性为block.
+ (2)因为行内和行内块级不能设置margin 和 paddin 因此不能通过 margin: 0 auto; 来显示居中. 只能通过 text-align 来设置对齐方式.
+ 
 
  
 
