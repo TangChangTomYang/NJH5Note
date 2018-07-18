@@ -70,7 +70,7 @@ a:伪类选择器{
   
   
   
- ####过度模块
+ ####过度模块 transition
  
  - :hover 伪类选择器除了可以用在 a 标签前上,还是可以用在其他任何标签上
  
@@ -100,6 +100,32 @@ a:伪类选择器{
         width: 500px;
     }
     ```
+    
+- **transition 过度连写**<br>
+**格式**
+```
+过度属性 过度时长 过度样式 延时
+transition: property duration timing-function delay
+```
+**连写注意点:**<br>
+(1) 多个需要动画的属性之间使用逗号分割,不能单独写,后面会层叠掉前面的
+
+    ```
+    // 正确写法, 过度效果之间用逗号 , 分割
+    transition:width 2s linear 0s, background-color 5s linear 0s;
+
+    //错误写法
+    transition:width 2s linear 0s;
+    transition:background-color 5s linear 0s; // 这一行会把上一行的过度层叠掉
+    ```
+    (2) 如果有很多属性需要动画可以使用 all 替代: 
+    ```
+    // 就是说我所有变化的属性都需要动画,动画时长为2秒
+    transition:all 2s;
+    ```
+    (3) 只要满足3要素(动画的属性 动画的时长 变化的属性值)就会有动画效果
+
+
      
  
  
